@@ -1,0 +1,11 @@
+drag {
+    display: block;
+    width: 0;
+    height: 0;
+    left: 0;
+    top: 0;
+    background: rgba(218, 154, 255, 0.25);
+    border: 1px solid rgb(203, 112, 255);
+    position: fixed;
+    will-change: display left top width height;
+}

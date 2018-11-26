@@ -1,0 +1,13 @@
+<div class="el"
+    [style.top] = 'this.el.pageY + "px"'
+    [style.left] = 'this.el.pageX + "px"'
+    [style.width] = 'this.el.width + "px"'
+    [style.height] = 'this.el.height + "px"'
+    [style.background-color] = 'is_selected ? "red" : "rebeccapurple"'
+></div>
+<div 
+    *ngIf="is_movePoint"
+    [style.left] = 'this.el.destinationX + "px"'
+    [style.top] = 'this.el.destinationY + "px"'
+    class="move-point">
+</div>
